@@ -2,6 +2,7 @@
 # IntelliJ IDEA
 .idea/
 *.iml
+*.xml
 workspace.xml
 
 # Diretórios de build e arquivos temporários
