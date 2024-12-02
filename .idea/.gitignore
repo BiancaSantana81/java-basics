@@ -1,0 +1,16 @@
+# Default ignored files
+# IntelliJ IDEA
+.idea/
+*.iml
+workspace.xml
+
+# Diretórios de build e arquivos temporários
+/out/
+
+# Arquivos de logs e temporários
+*.log
+
+# Arquivos de sistema específicos
+.DS_Store        # Para macOS
+Thumbs.db        # Para Windows
+
