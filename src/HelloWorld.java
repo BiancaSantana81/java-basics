@@ -1,5 +1,11 @@
+/**
+ * Classe representando um exemplo básico.
+ */
 public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
+  /**
+   * Este método faz uma saudação.
+   */
+  public static void main(String[]args) {
+    System.out.println("Hello, World!");
+  }
 }
