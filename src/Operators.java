@@ -13,5 +13,4 @@ public class Operators {
     System.out.println(number1 + number2);
 
   }
-
 }
