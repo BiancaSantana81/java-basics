@@ -49,10 +49,12 @@ public class ExampleArray {
       System.out.print("\n");
     }
 
-    // Aqui a cópia é por referência, ou seja: refCopy e objValues compartilham o mesmo endereço de memória.
+    // Aqui a cópia é por referência, ou seja: refCopy e objValues compartilham o mesmo endereço de memória (alias).
     System.out.println("Valores em refCopy: ");
     char[] refCopy = objValues;
     System.out.println(refCopy);
+
+    // Aqui eu estou fazendo uma deepyCopy de objValues: ou seja ambas não compartilham o mesmo espaço de memória
 
     char[] depyCopy = new char[objValues.length];
 
@@ -60,10 +62,11 @@ public class ExampleArray {
       depyCopy[i] = objValues[i];
     }
 
+    //System.arraycopy(objValues, 0, depyCopy, 0, depyCopy.length); - outra forma de fazer a deepyCopy
+
     depyCopy[0] = 'z';
 
     System.out.println("Valores em depyCopy: ");
     System.out.println(depyCopy);
-
   }
 }
