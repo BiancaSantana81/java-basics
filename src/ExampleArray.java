@@ -48,5 +48,22 @@ public class ExampleArray {
       }
       System.out.print("\n");
     }
+
+    // Aqui a cópia é por referência, ou seja: refCopy e objValues compartilham o mesmo endereço de memória.
+    System.out.println("Valores em refCopy: ");
+    char[] refCopy = objValues;
+    System.out.println(refCopy);
+
+    char[] depyCopy = new char[objValues.length];
+
+    for (int i = 0; i < depyCopy.length; i++) {
+      depyCopy[i] = objValues[i];
+    }
+
+    depyCopy[0] = 'z';
+
+    System.out.println("Valores em depyCopy: ");
+    System.out.println(depyCopy);
+
   }
 }
