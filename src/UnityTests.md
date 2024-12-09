@@ -9,6 +9,7 @@ Para aprender a fazer testes eficientes e de acordo com as boas práticas de mer
 Para isso, eu estudei por meio dos seguintes conteúdos:
 
 - https://junit.org/junit5/docs/current/user-guide/
+- https://www.youtube.com/watch?v=rBdPPHq7REw&t=47s
 - https://maven.apache.org/
 
 Antes de entrar de fato no `JUnit` eu estou estudando sobre `Maven`.
