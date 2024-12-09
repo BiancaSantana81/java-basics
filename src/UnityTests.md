@@ -9,9 +9,18 @@ Para aprender a fazer testes eficientes e de acordo com as boas práticas de mer
 Para isso, eu estudei por meio dos seguintes conteúdos:
 
 - https://junit.org/junit5/docs/current/user-guide/
+- https://maven.apache.org/
 
-Anotações de coisinhas interessantes:
+Antes de entrar de fato no `JUnit` eu estou estudando sobre `Maven`.
 
-- é muito difícil usar o JUnit sem o Maven :( Voltei um passo atrás para aprender Maven.
-- o Maven é cheeeeeeeio de regrinhas, tem toda uma estrutura, que até faz sentido, mas é meio chatinha de seguir e estruturar.
+#### Apache Maven
+
+
+O Apache Maven é uma ferramenta de gerenciamento de projetos e automação de builds para projetos Java. Ele simplifica processos como compilação, teste, empacotamento, implantação e gerenciamento de dependências.
+
+O Maven permite incluir bibliotecas de terceiros automaticamente no projeto, eliminando a necessidade de baixar e configurar manualmente os arquivos `.jar`. Todas as dependências e configurações são especificadas no arquivo `pom.xml`.
+Para configurar um projeto com Maven:
+
+1. Crie o arquivo pom.xml, configure a estrutura principal do projeto e adicione as dependências das bibliotecas que serão utilizadas.
+2. Na raiz do projeto, use o comando `mvn clean install` para compilar e construir o projeto, garantindo que todas as dependências sejam baixadas e configuradas corretamente.
 
