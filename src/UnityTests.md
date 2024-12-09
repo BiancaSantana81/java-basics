@@ -12,5 +12,6 @@ Para isso, eu estudei por meio dos seguintes conteúdos:
 
 Anotações de coisinhas interessantes:
 
-- é muito difícil usar o JUnit sem o Maven :( talvez seja o momento de aprender a usar para conseguir realizar os testes, mas vou tentar mais uma vez configurar o JUnit5 sem o Maven.
+- é muito difícil usar o JUnit sem o Maven :( Voltei um passo atrás para aprender Maven.
+- o Maven é cheeeeeeeio de regrinhas, tem toda uma estrutura, que até faz sentido, mas é meio chatinha de seguir e estruturar.
 
